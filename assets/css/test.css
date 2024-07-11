@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body,html {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-image: linear-gradient(#322f2f, #f6ffb0, #c2ffcf);
+}
+
+header, footer {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    transition: all 0.5s;
+    z-index: 997;
+    height: 68px;
+}
+
+#header .logo {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.logo a {
+    color: #fff;
+}
+  
+.logo img {
+    max-height: auto; 
+    width: 14%; 
+}
+
+header * {
+    display: inline-block;
+}
+
+#chart-h1, #resources-h1, #results-h1{
+    text-align: center;
+    color: black;
+}
+
+header h1 {
+    margin-top: 0;
+    margin-bottom: 60px;
+    padding: 0;
+    font-size: x-large;
+    vertical-align: middle; 
+}
+
+header nav {
+    font-size: larger;
+    vertical-align: middle;
+    float: right;
+}
+
+header nav {
+    margin: 15pt 20pt 5pt 20pt;
+}
+
+header nav a {
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+    margin: 0 10pt;
+    transition-property: color;
+    transition-duration: 0.1s;
+}
+
+header nav a:hover{
+    color: #8ed851;
+    transition-property: color;
+    transition-duration: 0.1s;
+}
+
+footer p {
+    padding: 10pt 0pt;
+}
+
+footer section {
+    width: 600px;
+    margin: 20pt auto;
+    height: max-content;
+}
+
+main {
+    width: 960px;
+    height: max-content;
+    padding: 20pt;
+    margin: auto;
+}
+
+main section {    
+    display: block;
+    border: 0px solid #E1E4E8; 
+    padding: 15pt 20pt;
+    margin: 20pt 0pt;
+    box-shadow: /* https://shadows.brumm.af */
+    0px 0.1px 0.7px rgba(0, 0, 0, 0.008),
+    0px 0.3px 1.7px rgba(0, 0, 0, 0.012),
+    0px 0.6px 3.3px rgba(0, 0, 0, 0.015),
+    0px 1.1px 5.8px rgba(0, 0, 0, 0.018),
+    0px 2.1px 10.9px rgba(0, 0, 0, 0.022),
+    0px 5px 26px rgba(0, 0, 0, 0.03);
+    border-radius: 0pt;
+}
+
+main h1 {
+    color: #8ed851;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30pt;
+    margin: 10pt 0pt;
+}
+header h1::first-letter {
+    color: #8ed851;
+    font-size: 21pt;
+}
+
+main h2 {
+    color: #73737A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20pt;
+    margin: 10pt 0pt;
+    text-align: center;
+}
+
+main h3 {
+    color: #73737A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+    margin: 10pt 0pt;
+}
+
+main a, header a {
+    text-decoration: none;
+    color: #73737A;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: #8ed851;
+}
+
+cite {
+    font-size: 12pt;
+    color: rgb(49, 42, 42);
+    display: block;
+    width: 80%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+main p {
+    color: rgb(49, 42, 42);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15pt;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10pt 0pt;
+    text-indent: 0pt;
+}
+
+main p a, footer a {
+    color: #73737A;
+    text-decoration: none;
+}
+
+main ul {
+    color: black;
+    font-size: 18pt;
+    display: block;
+    margin:0pt 40pt;
+}
+
+main img, main div {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15pt;
+}
+
+main .button {
+    color: #73737A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20pt;
+    display: inline-block;
+    text-align: center;
+    width: 100pt;
+    padding: 12pt 0pt;
+    margin: 10pt 10pt;
+    background-color: #73737A;
+    border-radius: 10px;
+    color: white;
+    transition-property: background-color;
+    transition-duration: 0.1s;
+    text-indent: 0px;
+}
+
+main .button:hover {
+    background-color: #8ed851;
+    color: black;
+    transition-property: background-color, color;
+    transition-duration: 0.1s;
+}
+
+main li {
+    list-style: circle;
+    font-size: 16pt;
+    font-family: 'Roboto', sans-serif;
+    padding: 5pt 0pt;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+main li:hover{
+    list-style: disc;
+    color: #73737A;
+    transition-property: color;
+    transition-duration: 0.1s;
+}
+
+#question h1{
+    text-indent: 0pt;
+    font-size: 16pt;
+}
+
+#question, main ul {
+    animation: nextQuestion;
+    animation-duration: 0.25s;
+}
+
+@keyframes nextQuestion {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.chart-divs {
+    display: block;
+    height: 300px;
+    max-width: 80%;
+    margin: 0 auto 40pt auto;
+}
+
+#figure-container {
+    width: 960px;
+    display: block;
+    margin: auto;
+}
+
+figure {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20pt;
+    width: 265px;
+    font-size: 16pt;
+    color: black;
+    height: max-content;
+    font-family: 'Roboto', sans-serif;
+}
+
+figure a {
+    text-align: left;
+    padding-left: 10pt;
+    color: #73737A;
+    display: block;
+    font-size: 12pt;
+}
+
+figure a:hover {
+    color: black;
+    transition-property: color;
+    text-decoration: underline;
+}
+
+figure blockquote {
+    padding: 15px;
+    text-align: left;
+    font-size: 15pt;
+    margin: 10pt 0pt;
+    background: #EEE;
+    border-radius: 5px;
+}
+
+figure blockquote::before {
+    content: '\201C';
+}
+
+figure blockquote::after {
+    content: '\201D';
+}
+
+figure figcaption {
+ font-size: 15pt;
+ font-weight: 500;
+ text-align: center;
+ color: black;
+ text-decoration: underline;
+}
+
+#results-h1{
+    text-decoration: underline;
+}
+
+#banner-image {
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.2)), url("https://png.pngtree.com/background/20230415/original/pngtree-free-download-green-marble-background-with-gold-line-picture-image_2443124.jpg");
+    background-size: cover;
+    background-size: 100%;
+    background-position-y: 30%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.resource {
+    display: inline-block;
+    width: 249px;
+    height: 350px;
+    vertical-align: top;
+    border-radius: 0;
+    margin: 7px 6px;
+    transform: scale(1);
+    transition-duration: 0.2s;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+}
+
+.resource:hover{
+    transform: scale(1.05);
+}
+
+.resource p {
+    text-align: center;
+    display: block;
+    text-indent: 0;
+    font-size: 19pt;
+}
+
+#quiz-box {
+    width: max-content;
+    margin: 50pt auto;
+    padding: 20pt 30pt;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    border-width: 0px;
+    box-shadow: 0px 0px 0px;
+}
+
+#quiz-box-text {
+    text-align: left;
+}
+
+.long {
+    display: inline-block;
+    width: 436px;
+    vertical-align: top;
+    padding: 0pt 15pt;
+}
+
+#credit-p {
+    text-align: left;
+    text-indent: 0;
+    display: block;
+    width: 750px;
+    margin: auto;
+    margin-top: 90px;
+    font-size: 13pt;
+}
+
+main .home-cards {
+    display: inline-block;
+    width: 437px;
+    vertical-align: top;
+}

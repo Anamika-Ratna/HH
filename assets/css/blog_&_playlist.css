@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+body {
+  background-color:#5c9f24;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+  overflow: auto;
+  background:#ffffff;
+}
+#decoration {
+  background-color: #c4eda2; /* Background color of the box */
+  padding: 20px; /* Padding inside the box */
+  margin-top: 70px; /* Space above the box */
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 1px solid #315d0c; /* Border around the box */
+  border-radius: 8px; /* Rounded corners of the box */
+}
+
+#decoration p{
+  font-size: large;
+  color: rgba(66, 10, 10, 0.841);
+  margin: 30px;
+  text-align: center;
+}
+  
+.media-scroller {
+  width: 90%;
+  display: grid;
+  gap: 10px;
+  padding: 10px 0;
+  grid-auto-flow: column;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
+  
+/* changing scrollbar style */
+  
+*::-webkit-scrollbar {
+  height: 6px;
+}
+  
+*::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0);
+}
+  
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(151, 149, 149);
+  border-radius: 20px;
+  border: 3px solid rgba(175, 166, 166, 0);
+}
+  
+  /* Rest of the CSS code */
+  
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5%;
+  background-color: #fff;
+  border-radius: 20px;  
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 20px auto;
+  width: 45%;
+  box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.464);
+}
+  
+#about p {
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.7s ease, opacity 0.7s ease, margin-top 0.7s ease;
+  margin-top: 0;
+}
+  
+#about:hover p {
+  max-height: 1000px;
+  opacity: 1;
+  z-index: 1;
+  margin-top: 3rem;
+}
+  
+#about span {
+  width: 100%;
+  background-color: #5c9f24;
+  border-radius: 0 0 20px 20px;
+  position: relative;
+  top: 25px;
+  z-index: 0;
+  transition: border-radius 0.3s ease;
+}
+  
+#about:hover span {
+  border-radius: 5px;
+}
+  
+#about h2 {
+  text-align: center;
+}
+  
+iframe {
+  width: 420px;
+  height: 315px;
+  border-radius: 10px;
+}
+  
+  /* dark carorousel control icons */
+.carousel-control-next, .carousel-control-prev {
+  filter: invert(100%);
+}
+  
+@media  (max-width: 620px) {
+  .media-scroller {
+    grid-auto-columns: 100%;
+  }
+  #about {
+    width: 65%;
+  }
+  iframe {
+     width: 100%;
+  }
+}

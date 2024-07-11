@@ -1,0 +1,57 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(120deg, #caff9f, white);
+}
+
+.head {
+    padding: 5%;
+    text-align: center; 
+}
+  
+.head h2 {
+    margin-bottom: 25px;
+}
+  
+.thoughtsdustbin-container {
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    margin: -10%;
+    margin-left: 40px; 
+    margin-right: 40px;
+    width: 90%; 
+}
+  
+  #thoughtsdustbin {
+    width: 100%; 
+    height: 400px;
+    padding: 10px;
+    font-size: 20px; 
+    resize: both; 
+    justify-content: center;
+    align-items: center;
+    outline: solid 2px black;
+  }
+  
+#clear-button {
+    font-size: 20px;
+    align-items: center;
+    margin-left: 38%;
+    margin-right: 80px;
+    background-color: none; 
+    border: 2px solid black; 
+    border-radius: 10px; 
+    padding: 20px 40px; 
+    margin-top: 20px; 
+    cursor: pointer;
+}
+  
+#clear-button:hover {
+    background-color: black;
+    color: white; 
+}

@@ -834,6 +834,77 @@ section {
 }
 
 /*--------------------------------------------------------------
+# testimonial
+--------------------------------------------------------------*/
+
+/* review*/
+.review-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit , minmax( 300px , auto));
+  gap: 2rem;
+  align-items: center;
+  margin-top: 4rem;
+   
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.middle-text h3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.box{
+  padding:15px;   /*35*/
+ 
+  background: var(--other-color);
+  border-radius: 3rem;
+  box-shadow: 0 0 25px 5px #911818e3;
+}
+.box p{
+  color: black;
+  font-style: italic;
+  line-height: 26px;
+  margin-bottom:1.5rem;
+  padding-top: 20px;
+}
+.in-box{
+  display: flex;
+  align-items: center;
+  gap: 28px;
+ 
+} 
+
+.bx-img img{
+  width: 100%;
+  height: auto;
+  border-radius:3rem;
+  
+}
+.box-text h4{
+  margin: 5px 0;
+  font-size: 18px;
+}
+.bxx-text h5{
+  color: var(--second-color);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.rating i{
+  color: var(--main-color);
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+/*--------------------------------------------------------------
+# testimonial
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
@@ -1038,7 +1109,25 @@ section {
   margin-bottom: 20px;
   background: #343a40;
   position: relative;
+  margin-left: 40px;
+  box-shadow: 0 0 25px 10px #5c9f24;
+  animation: pulse 3s infinite;
+  /* border-radius: 20px; */
 }
+
+/*Pulse Animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1); 
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 
 .team .member .member-info {
   opacity: 0;
