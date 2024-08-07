@@ -1,6 +1,1 @@
-Thanks for downloading this template!
-
-Template Name: Groovin
-Template URL: https://bootstrapmade.com/groovin-free-bootstrap-theme/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+The objective of HarmonyHub is to enhance mental well-being through a socially sustainable design approach. By creating inclusive, equitable, and culturally sensitive solutions, HarmonyHub aims to support the mental health of individuals from diverse backgrounds and all age groups. The platform leverages technology to offer comprehensive mental wellness resources, including self-assessment tests, diverse activities, spiritual breaks, positive affirmations, and professional support. HarmonyHub also fosters a strong sense of community through its dedicated community features, including Discord and WhatsApp groups, where users can connect, share experiences, and support each other. This community aspect allows users to integrate their local cultures, traditions, and values into their mental wellness journey, ensuring the solutions resonate personally. This approach empowers every individual to contribute their best work and maintain a balanced mental state. Through its innovative use of technology and a deep commitment to social sustainability, HarmonyHub provides a holistic and supportive environment for enhancing mental well-being globally.
